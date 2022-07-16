@@ -22,3 +22,5 @@ jobs:
         with:
           # Filepath of the project to be packaged, relative to root of repository
           PROJECT_FILE_PATH: Api.Core/Api.Core.csproj
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          PACKAGE_NAME: Steam.Api.Core
