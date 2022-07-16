@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Api", "Steam.Api\Steam.Api.csproj", "{5A1ABD94-5452-46DC-A028-9E5286262EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Core", "Api.Core\Api.Core.csproj", "{32B3D50E-DB3A-4B77-9E9F-424BC92D1580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A1ABD94-5452-46DC-A028-9E5286262EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1ABD94-5452-46DC-A028-9E5286262EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1ABD94-5452-46DC-A028-9E5286262EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1ABD94-5452-46DC-A028-9E5286262EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B3D50E-DB3A-4B77-9E9F-424BC92D1580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B3D50E-DB3A-4B77-9E9F-424BC92D1580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B3D50E-DB3A-4B77-9E9F-424BC92D1580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B3D50E-DB3A-4B77-9E9F-424BC92D1580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {347561A5-B95A-4965-A401-117ECADFF02F}
+	EndGlobalSection
+EndGlobal

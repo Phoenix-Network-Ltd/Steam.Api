@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+package Rpc;
+
+service User {
+  rpc GetWithTicket (GetWithTicketRequest) returns (UserResponse);
+}
+
+message GetWithTicketRequest {
+  string ticket = 1;
+  uint64 appid = 2;
+}
+
+message UserResponse {
+  bool success = 1;
+  string id = 2;
+}
