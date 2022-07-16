@@ -1,4 +1,6 @@
-﻿namespace Steam.Api;
+﻿using Steam.Api.Services;
+
+namespace Steam.Api;
 
 public class Program
 {
