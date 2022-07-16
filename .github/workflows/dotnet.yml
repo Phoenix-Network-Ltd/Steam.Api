@@ -23,3 +23,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Package
+      run: dotnet pack -c Release -o . Api.Core/Api.Core.csproj
+    - name: Publish
+      run: dotnet nuget push *.nupkg -p:PackageID=Steam.Api.Core -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
