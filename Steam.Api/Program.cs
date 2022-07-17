@@ -13,12 +13,12 @@ public class Program
         var app = builder.Build();
 
         app.UseHttpsRedirection();
-        app.UseAuthorization();
         app.UseRouting();
         
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapGrpcService<UserService>();
+            endpoints.MapGrpcService<TransactionService>();
         });
 
         app.Run();
