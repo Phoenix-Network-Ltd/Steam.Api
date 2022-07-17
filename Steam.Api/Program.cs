@@ -12,7 +12,7 @@ public class Program
 
         var app = builder.Build();
 
-        app.UseHttpsRedirection();
+        //app.UseHttpsRedirection();
         app.UseRouting();
         
         app.UseEndpoints(endpoints =>
