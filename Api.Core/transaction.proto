@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+package Rpc;
+
+service Transaction {
+  rpc Create (CreateTransactionRequest) returns (CreateTransactionResponse);
+}
+
+message CreateTransactionRequest {
+  uint64 steamid = 1;
+  uint32 appid = 2;
+  uint32 itemcount = 3;
+}
+
+message CreateTransactionResponse {
+  bool success = 1;
+  uint64 transid = 2;
+  uint64 orderid = 3;
+}
