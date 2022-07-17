@@ -13,5 +13,5 @@ message GetWithTicketRequest {
 
 message UserResponse {
   bool success = 1;
-  string id = 2;
+  uint64 id = 2;
 }
