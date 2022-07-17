@@ -9,7 +9,7 @@ namespace Steam.Api.Services
 	{
         public override async Task<UserResponse> GetWithTicket(GetWithTicketRequest request, ServerCallContext context)
         {
-            var response = await SteamHelper.GetUser(request.Ticket);
+            var response = await SteamHelper.GetUser(request.Ticket, request.Appid);
 
             return new UserResponse
             {
